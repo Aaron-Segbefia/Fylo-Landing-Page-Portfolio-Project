@@ -9,7 +9,7 @@
     "footer footer";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 500px 900px 400px 300px;
-    
+    margin: 0%;
 }
 
 .header{ 
@@ -192,13 +192,13 @@ svg{
 }
 
  
-.productive .productivity-image{ 
-        background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-2.svg");
-        height: 500px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin: 10px;
-    }
+.productive .productivity-image {
+    background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-2.svg");
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
 
 
 
@@ -354,11 +354,11 @@ input:active{
     .productivity-image{ 
         width: 300px;
     }
-    .email-image{ 
+    .email-image {
         background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-1.svg");
         background-size: contain;
         height: 300px;
-        
+        background-position: center;
         background-repeat: no-repeat;
     }
     .email-image img{ 
@@ -403,12 +403,12 @@ input:active{
         bottom: 200px;
         display: inline;
     }
-    .productive .productivity-image{ 
+    .productive .productivity-image {
         background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-2.svg");
         background-size: contain;
         height: 300px;
         background-repeat: no-repeat;
-        width: 100%;
+        background-position: center;
     }
 
     .access .fill-form button{ 
